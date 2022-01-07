@@ -16,10 +16,10 @@ Of the 12 stocks analyzed in this project, all except two (ENPH and RUN) perform
 ![2018 Stock Performance](Resources/VBA_Challenge_2018.png)
 
 ### Secondary Results
-In addition to showing stock performarnce for each year, the two screenshots above show how long the refactored VBA code too to run and return those results (see popup). Each calculation took less than one second to run.  We can compare this to the original (non-refactored) code that took over a second to run each time and see that there was indeed an improvement in run-time.
+In addition to showing stock performarnce for each year, the two screenshots above show how long the refactored VBA code took to run and return those results (see popups within the screenshots). Each calculation took less than one second to run.  We can compare this to the original (non-refactored) code that took over a second to run each time and see that there was indeed an improvement in run-time.
 
 ## Summary
-Refactoring code can be beneficial when it improves readability and efficiency and is executed correctly. But when a programmer either introduces errors to an already-functioning piece of code or changes something perfectly functional simply because that person prefers to do things a certain way (the "6 of one, half dozen of the other" mentality), then refactoring becomes disadvantagous or even dangerous.
+Refactoring code can be beneficial when it improves readability and efficiency and is executed correctly. But when a programmer either introduces errors to an already-functioning piece of code or changes something perfectly functional simply because that person prefers to do things a certain way (the "six of one, half dozen of the other" mentality), then refactoring becomes disadvantagous or even dangerous.
 
 In the case of this particular project, refactoring was beneficial because it streamlined our code (increased efficiency) so that it only loops through the data a single time to collect all the necessary information for our analysis.
 
